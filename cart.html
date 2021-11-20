@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/cart.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Shop bán giày</title>
+</head>
+<body>
+    <div id="main">
+        <!---------------------------------------- Header ---------------------------------------->
+        <header id="main-header">
+            <div class="grid wide">
+                <div class="header" id="header">
+                    <nav class="header-nav">
+                        <ul>
+                            <li class="logo">
+                                <a href="./index.html">
+                                    <img src="./assets/img/logo.png" alt="">
+                                </a>
+                            </li>
+    
+                            <li class="menu">
+                                <div class="menu__mobile" id="menu__mobile">
+                                    <p class="menu__mobile-click hide-on-pc hide-on-tablet">
+                                        <i class="fas fa-bars"></i>
+                                        Danh mục
+                                    </p>
+
+                                    
+                                    <ul class="menu-list">
+                                        <div class="login__mobile hide-on-tablet hide-on-pc">
+                                            <a href="">
+                                                Đăng nhập
+                                                <i class="fas fa-user-circle"></i>
+                                            </a>
+                                        </div>
+                                        <li><a href="">GIỚI THIỆU</a></li>
+                                        <li class="menu-list__products">
+                                            <a href="./products.html">
+                                                <span>NỮ</span>
+                                                <i class="fas fa-angle-down"></i>
+                                            </a>
+                                            <ul class="subMenu-list">
+                                                <li><a href="./products.html">Sneaker</a></li>
+                                                <li><a href="./products.html">Giày bốt</a></li>
+                                                <li><a href="./products.html">Sandal</a></li>
+                                            </ul>
+                                            
+                                        </li>
+                                        <li class="menu-list__products">
+                                            <a href="./products.html">
+                                                <span>NAM</span>
+                                                <i class="fas fa-angle-down"></i>
+                                            </a>
+                                            <ul class="subMenu-list">
+                                                <li><a href="./products.html">Sneaker</a></li>
+                                                <li><a href="./products.html">Giày bốt</a></li>
+                                                <li><a href="./products.html">Sandal</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-list__products">
+                                            <a href="./products.html" class="highlight">
+                                                <span>SALE</span>
+                                                <i class="fas fa-angle-down"></i>
+                                            </a>
+                                            <ul class="subMenu-list">
+                                                <li><a href="./products.html">Nữ</a></li>
+                                                <li><a href="./products.html">Nam</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="">TIN TỨC</a></li>
+                                        <li><a href="">LIÊN HỆ</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li class="others">
+                                <ul class="others-list">
+                                    <li class="hide-on-mobile">
+                                        <form method="get" action="" class="header-search">
+                                            <input name="q" type="text" placeholder="Tìm kiếm" title="Tìm kiếm"> 
+                                            <button type="submit" title="Tìm kiếm">
+                                                <i class="fas fa-search"></i>
+                                            </button>
+                                        </form>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <i class="fas fa-paw" title="Tra cứu đơn hàng"></i>
+                                        </a>
+                                    </li>
+                                    <li class="hide-on-mobile">
+                                        <a href="">
+                                            <i class="fas fa-user" title="Đăng nhập"></i>
+                                        </a>
+                                    </li>
+                                    <li class="search-cart--wrap">
+                                        <a href="">
+                                            <i class="fa fa-shopping-bag"></i>
+                                        </a>
+                                        <div class="cart__list hide-on-mobile"> 
+                                            <img class="no-cart" src="./assets/img/no_cart.png" alt="">
+                                            <span class="cart__list--empty">Chưa Có Sản Phẩm</span>
+            
+                                            <p class="cart__list-header">Sản Phẩm Mới Thêm</p>
+                                            <ul class="cart__list-list">
+                                                <li class="cart__list-item">
+                                                    <a href="">
+                                                        <img class="cart__list-item-img" src="./assets/img/products/sneaker-nu.jpg" alt="">
+                                                        
+                                                        <div class="cart__list-item-description">
+                                                            <div class="cart__list-item-heading">
+                                                                <h4 class="cart__list-item-name">BATA 4066 JEAN XANH BATA 4066 JEAN XANH BATA 4066 JEAN XANH</h4>
+                                                                
+                                                                <div class="cart__list-item-detail">
+                                                                    <span class="cart__list-item-cost highlight">2.070.000đ</span>
+                                                                    <span class="cart__list-item-multiply">x</span>
+                                                                    <span class="cart__list-item-quanlity">2</span>
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                            
+                                                            <div class="cart__list-item-body">
+                                                                <div class="cart__list-item-type">
+                                                                    <span class="cart__list-item-color">Màu: xanh</span>
+                                                                    <span class="cart__list-item-size">Size: 43</span>
+                                                                </div>
+                                                                <span class="cart__list-item-remove">Xóa</span>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </li>
+            
+                                                <li class="cart__list-item">
+                                                    <a href="">
+                                                        <img class="cart__list-item-img" src="./assets/img/products/sneaker-nu-2.jpg" alt="">
+                                                        
+                                                        <div class="cart__list-item-description">
+                                                            <div class="cart__list-item-heading">
+                                                                <h4 class="cart__list-item-name">BATA 4066 JEAN XANH</h4>
+                                                                
+                                                                <div class="cart__list-item-detail">
+                                                                    <span class="cart__list-item-cost highlight">80.000đ</span>
+                                                                    <span class="cart__list-item-multiply">x</span>
+                                                                    <span class="cart__list-item-quanlity">1</span>
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                            
+                                                            <div class="cart__list-item-body">
+                                                                <div class="cart__list-item-type">
+                                                                    <span class="cart__list-item-color">Màu: xanh</span>
+                                                                    <span class="cart__list-item-size">Size: 43</span>
+                                                                </div>
+                                                                <span class="cart__list-item-remove">Xóa</span>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </li>
+            
+                                                <li class="cart__list-item">
+                                                    <a href="">
+                                                        <img class="cart__list-item-img" src="./assets/img/products/sneaker-nu-3.jpg" alt="">
+                                                        
+                                                        <div class="cart__list-item-description">
+                                                            <div class="cart__list-item-heading">
+                                                                <h4 class="cart__list-item-name">BATA 4066 JEAN XANH</h4>
+                                                                
+                                                                <div class="cart__list-item-detail">
+                                                                    <span class="cart__list-item-cost highlight">150.000đ</span>
+                                                                    <span class="cart__list-item-multiply">x</span>
+                                                                    <span class="cart__list-item-quanlity">1</span>
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                            
+                                                            <div class="cart__list-item-body">
+                                                                <div class="cart__list-item-type">
+                                                                    <span class="cart__list-item-color">Màu: xanh</span>
+                                                                    <span class="cart__list-item-size">Size: 43</span>
+                                                                </div>
+                                                                <span class="cart__list-item-remove">Xóa</span>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </li>
+            
+                                                <li class="cart__list-item">
+                                                    <a href="">
+                                                        <img class="cart__list-item-img" src="./assets/img/products/sneaker-nu-4.jpg" alt="">
+                                                        
+                                                        <div class="cart__list-item-description">
+                                                            <div class="cart__list-item-heading">
+                                                                <h4 class="cart__list-item-name">BATA 4066 JEAN XANH</h4>
+                                                                
+                                                                <div class="cart__list-item-detail">
+                                                                    <span class="cart__list-item-cost highlight">2.070.000đ</span>
+                                                                    <span class="cart__list-item-multiply">x</span>
+                                                                    <span class="cart__list-item-quanlity">2</span>
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                            
+                                                            <div class="cart__list-item-body">
+                                                                <div class="cart__list-item-type">
+                                                                    <span class="cart__list-item-color">Màu: xanh</span>
+                                                                    <span class="cart__list-item-size">Size: 43</span>
+                                                                </div>
+                                                                <span class="cart__list-item-remove">Xóa</span>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </li>
+            
+                                                <li class="cart__list-item">
+                                                    <a href="">
+                                                        <img class="cart__list-item-img" src="./assets/img/products/sneaker-nu.jpg" alt="">
+                                                        
+                                                        <div class="cart__list-item-description">
+                                                            <div class="cart__list-item-heading">
+                                                                <h4 class="cart__list-item-name">BATA 4066 JEAN XANH </h4>
+                                                                
+                                                                <div class="cart__list-item-detail">
+                                                                    <span class="cart__list-item-cost highlight">80.000đ</span>
+                                                                    <span class="cart__list-item-multiply">x</span>
+                                                                    <span class="cart__list-item-quanlity">1</span>
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                            
+                                                            <div class="cart__list-item-body">
+                                                                <div class="cart__list-item-type">
+                                                                    <span class="cart__list-item-color">Màu: xanh</span>
+                                                                    <span class="cart__list-item-size">Size: 43</span>
+                                                                </div>
+                                                                <span class="cart__list-item-remove">Xóa</span>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </li>
+            
+                                                <li class="cart__list-item">
+                                                    <a href="">
+                                                        <img class="cart__list-item-img" src="./assets/img/products/sneaker-nu-2.jpg" alt="">
+                                                        
+                                                        <div class="cart__list-item-description">
+                                                            <div class="cart__list-item-heading">
+                                                                <h4 class="cart__list-item-name">BATA 4066 JEAN XANH</h4>
+                                                                
+                                                                <div class="cart__list-item-detail">
+                                                                    <span class="cart__list-item-cost highlight">150.000đ</span>
+                                                                    <span class="cart__list-item-multiply">x</span>
+                                                                    <span class="cart__list-item-quanlity">1</span>
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                            
+                                                            <div class="cart__list-item-body">
+                                                                <div class="cart__list-item-type">
+                                                                    <span class="cart__list-item-color">Màu: xanh</span>
+                                                                    <span class="cart__list-item-size">Size: 43</span>
+                                                                </div>
+                                                                <span class="cart__list-item-remove">Xóa</span>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </li>
+            
+                                                <li class="cart__list-item">
+                                                    <a href="">
+                                                        <img class="cart__list-item-img" src="./assets/img/products/sneaker-nu-3.jpg" alt="">
+                                                        
+                                                        <div class="cart__list-item-description">
+                                                            <div class="cart__list-item-heading">
+                                                                <h4 class="cart__list-item-name">BATA 4066 JEAN XANH</h4>
+                                                                
+                                                                <div class="cart__list-item-detail">
+                                                                    <span class="cart__list-item-cost highlight">2.070.000đ</span>
+                                                                    <span class="cart__list-item-multiply">x</span>
+                                                                    <span class="cart__list-item-quanlity">2</span>
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                            
+                                                            <div class="cart__list-item-body">
+                                                                <div class="cart__list-item-type">
+                                                                    <span class="cart__list-item-color">Màu: xanh</span>
+                                                                    <span class="cart__list-item-size">Size: 43</span>
+                                                                </div>
+                                                                <span class="cart__list-item-remove">Xóa</span>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </li>
+            
+                                                <li class="cart__list-item">
+                                                    <a href="">
+                                                        <img class="cart__list-item-img" src="./assets/img/products/sneaker-nu-4.jpg" alt="">
+                                                        
+                                                        <div class="cart__list-item-description">
+                                                            <div class="cart__list-item-heading">
+                                                                <h4 class="cart__list-item-name">BATA 4066 JEAN XANH</h4>
+                                                                
+                                                                <div class="cart__list-item-detail">
+                                                                    <span class="cart__list-item-cost highlight">80.000đ</span>
+                                                                    <span class="cart__list-item-multiply">x</span>
+                                                                    <span class="cart__list-item-quanlity">1</span>
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                            
+                                                            <div class="cart__list-item-body">
+                                                                <div class="cart__list-item-type">
+                                                                    <span class="cart__list-item-color">Màu: xanh</span>
+                                                                    <span class="cart__list-item-size">Size: 43</span>
+                                                                </div>
+                                                                <span class="cart__list-item-remove">Xóa</span>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+            
+                                            <div class="cart__list-footer">
+                                                <button class="btn-submit ">Xem Giỏ Hàng</button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <!---------------------------------------- Cart ---------------------------------------->
+        <div class="main-cart">
+            <div class="grid wide">
+                <div class="cart-content">
+                    <div class="row">
+                        <div class="col l-8 m-12 c-12">
+                            <table class="cart-info">
+                                <thead>
+                                    <tr>
+                                        <th>Sản phẩm</th>
+                                        <th>Tên sản phẩm</th>
+                                        <th>Giá</th>
+                                        <th>Số lượng</th>
+                                        <th>Thành tiền</th>
+                                        <th>Xóa</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><img src="./assets/img/products/sneaker-nu.jpg" alt=""></td>
+                                        <td>BATA 4066 JEAN XANH</td>
+                                        <td>340.000đ</td>
+                                        <td><input class="count" type="number" name="" value="1"></td>
+                                        <td>340.000đ</td>
+                                        <td><i class="fas fa-times"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="./assets/img/products/sneaker-nu.jpg" alt=""></td>
+                                        <td>BATA 4066 JEAN XANH</td>
+                                        <td>340.000đ</td>
+                                        <td><input class="count" type="number" name="" value="1"></td>
+                                        <td>340.000đ</td>
+                                        <td><i class="fas fa-times"></i></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col l-4 m-12 c-12 right">
+                            <table class="cart-calculator">
+                                <tr>
+                                    <th class="heading" colspan="2">TỔNG TIỀN GIỎ HÀNG</th>
+                                </tr>
+                                <tr>
+                                    <td>TỔNG SẢN PHẨM</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <td>TỔNG TIỀN HÀNG</td>
+                                    <td>640.000đ</td>
+                                </tr>
+                                <tr>
+                                    <td>THÀNH TIỀN</td>
+                                    <td>640.000đ</td>
+                                </tr>
+                                <tr>
+                                    <td class="total">TẠM TÍNH</td>
+                                    <td>640.000đ</th>
+                                </tr>
+                            </table>
+                            <div class="cart-action">
+                                <p class="desc">Bạn sẽ được miễn phí ship khi đơn hàng của bạn có tổng giá trị trên 2.000.000đ</p>
+                                <div class="row">
+                                    <div class="continue"><a href="./index.html">TIẾP TỤC MUA SẮM</a></div>
+                                    <div class="checkout"><a href="">THANH TOÁN</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!---------------------------------------- Footer ---------------------------------------->
+        <footer class="footer">
+            <div class="grid wide footer__mobile">
+                <div class="row">
+                    <div class="col l-3 m-12 c-12 footer__input">
+                        </ul> 
+                        <h3 class="footer__heading"><b>NHẬN BẢN TIN TỪ UrShoes</b></h3>
+                        <form action="" class="footer__form">
+                            <input type="email" name="email" id="email" placeholder="Nhập e-mail của bạn" required>
+                            <input type="submit" value="OK">
+                        </form>
+                    </div>
+                    <div class="col l-2 m-3 c-6">
+                        <h3 class="footer__heading">VỀ SHOP</h3>
+                        <ul class="footer__list">
+                            <li>
+                                <a href="">Giới thiệu</a>
+                            </li>
+                            <li>
+                                <a href="">Tuyển dụng</a>
+                            </li>
+                            <li>
+                                <a href="">Liên hệ</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2 m-3 c-6">
+                        <h3 class="footer__heading">CHÍNH SÁCH</h3>
+                        <ul class="footer__list">
+                            <li>
+                                <a href="">Điều khoản</a>
+                            </li>
+                            <li>
+                                <a href="">Đổi trả</a>
+                            </li>
+                            <li>
+                                <a href="">Bảo hành</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2 m-3 c-6">
+                        <h3 class="footer__heading">THEO DÕI</h3>
+                        <ul class="footer__list">
+                            <li>
+                                <a href="">
+                                    <i class="fab fa-facebook"></i>
+                                    Facebook
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fab fa-instagram"></i>
+                                    Instagram
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fab fa-linkedin"></i>
+                                    Linkedin
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2 m-3 c-6">
+                        <h3 class="footer__heading">TẢI ỨNG DỤNG</h3>
+                        <div class="footer__download">
+                            <a href="" class="footer__download-link-QR">
+                                <img src="./assets/img/qrcode.png" alt="Download">
+                            </a>
+                            <div class="footer__download-app">
+                                <a href="" class="footer__download-link-app">
+                                    <img src="./assets/img/googleplay.png" alt="">
+                                </a>
+
+                                <a href="" class="footer__download-link-app">
+                                    <img src="./assets/img/appstore.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="footer__copyright">
+                <div class="grid wide">
+                    <p>© 2021 UrShoes. Tất cả các quyền được bảo lưu.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="./assets/js/header.js"></script>
+</body>
+</html>

@@ -137,6 +137,20 @@
     .pagination ul li {
         --height: 28px;
     }
+    /******************** Cart ********************/
+    .main-cart {
+        margin-top: 70px;
+    }
+    .main-cart .cart-info {
+        font-size: 12px;
+    }
+    .main-cart .cart-info img {
+        max-width: 80px;
+    }
+    .main-cart .cart-info .count {
+        width: 20px;
+        padding: 4px;
+    }
 }
 
 /* Tablet */

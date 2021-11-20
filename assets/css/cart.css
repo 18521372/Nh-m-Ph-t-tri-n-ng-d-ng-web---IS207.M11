@@ -1,0 +1,97 @@
+.main-cart {
+    margin-top: 100px;
+    padding: 50px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart-info {
+    font-size: 16px;
+}
+.cart-info th,
+.cart-info td {
+    padding: 8px;
+    border-bottom: 2px solid #ccc;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.cart-info img {
+    max-width: 150px;
+}
+
+.cart-info .count {
+    width: 40px;
+    padding: 4px;
+}
+
+.main-cart .col.right {
+    border-left: 2px solid #ccc;
+}
+
+.cart-calculator .heading {
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 2px solid #ccc;
+    border-collapse: collapse;
+}
+
+.cart-calculator th,
+.cart-calculator td {
+    padding: 10px;
+    
+}
+
+.cart-calculator .total,
+.cart-calculator .total + td {
+    border-top: 2px solid #ccc;
+    border-collapse: collapse;
+}
+
+.cart-calculator .total + td {
+    font-weight: bold;
+}
+
+.cart-calculator tr td:last-child {
+    text-align: right;
+}
+
+.cart-action {
+    width: 100%;
+    margin-top: 20px;
+    padding: 0 10px;
+}
+
+.cart-action p {
+    text-align: center;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.cart-action .row {
+    justify-content: center;
+}
+.cart-action a {
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 8px 12px;
+    display: block;
+}
+
+.cart-action .checkout a {
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+}
+.cart-action .continue a:hover {
+    background-color: #eee;
+}
+.cart-action .checkout a:hover {
+    background-color: #eee;
+    color: black;
+}
+
