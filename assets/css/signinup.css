@@ -1,0 +1,88 @@
+.sign {
+    margin-top: 78px;
+    padding-top: 20px;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.sign h3 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.sign-left, .sign-right {
+    padding: 0 16px;
+}
+
+.sign-left h4, 
+.sign-right h4 {
+    margin: 32px 0;
+    font-size: 14px;
+}
+
+.sign p {
+    margin-bottom: 32px;
+}
+
+.sign input, .sign select {
+    padding: 0 10px;
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 12px;
+    margin-bottom: 16px;
+    width: 240px;
+}
+
+.sign a {
+    margin-bottom: 16px;
+    display: inline-block;
+}
+
+.sign input[type="checkbox"] {
+    height: 15px;
+    width: 15px;
+    position: relative;
+    top: 2px;
+}
+
+.sign-btn {
+    display: block;
+    width: 200px;
+    padding: 8px;
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 12px;
+    outline: none;
+    border: none;
+    margin-bottom: 48px;
+    cursor: pointer;
+}
+
+.signup textarea {
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+}
+
+.signup span {
+    font-weight: bold;
+}
+
+.signup input, .signup select, .signup textarea {
+    width: 100%;
+}
+
+.signup .code-input {
+    display: inline-block;
+    border: 1px solid #989898;
+    flex: 1;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 700;
+    font-style: oblique;
+}
